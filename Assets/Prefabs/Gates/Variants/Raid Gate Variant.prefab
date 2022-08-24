@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6659851536975713098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7065631840615329932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46af556a0c332ad4fa07701a064b1870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gangManager: {fileID: 0}
+  price: 0
+  visual: {fileID: 7725840732825958547}
+  gatePrice: 0
+  useGatePrice: 0
+  priceText: {fileID: 1114920185054686181}
+  spawnPosition: {fileID: 0}
+  car: {fileID: 0}
+  enemyGang: {fileID: 0}
+--- !u!1001 &6136138520871829444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2336880722458797863, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_text
+      value: RAID GATE
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027317, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974949764226027336, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_Name
+      value: Raid Gate Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965636117257083474, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a98d5ef60f61a94da2cdd557155d4ee, type: 2}
+    - target: {fileID: 9033783479834006364, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.93
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1174800722153756594, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+--- !u!1 &7065631840615329932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3974949764226027336, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+  m_PrefabInstance: {fileID: 6136138520871829444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7725840732825958547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4472147340445239127, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+  m_PrefabInstance: {fileID: 6136138520871829444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1114920185054686181 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6511940598872609825, guid: 42286152fa0fbc94d8ebf4f212d32cba, type: 3}
+  m_PrefabInstance: {fileID: 6136138520871829444}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
